@@ -23,4 +23,4 @@ print("Suhu dalam fahreinheit adalah",fahreinheit,"°F")
 #Menghitung konversi suhu reamur ke kelvin
 reamur = input("Masukan nilai reamur ")
 kelvin = (float(reamur)*5/4)+273.15
-print("Suhu dalam kelvin adalah",kelvin,"K")
+print("Suhu dalam kelvin adalah ",kelvin,"K")
