@@ -2,7 +2,7 @@
 Panjang = input("Masukan Panjang ")
 Lebar = input("Masukan Lebar ")
 Luas = float(Panjang)*float(Lebar)
-print("Luas Persegi Panjang adalah", Luas)
+
 
 #Menghitung luas Lingkaran
 Jari_Jari = input("Masukan Jari-Jari ")
