@@ -35,13 +35,13 @@ if umur_bulan == 0:
     bulan_Sekarang = bulan_Sekarang
 else:
     bulan_Sekarang = int(bulan_Sekarang)-1
-    if bulan_Sekarang == 1:
+    if bulan_Sekarang == 0:
         bulan_Sekarang = 12
     else:
         bulan_sekarang = bulan_Sekarang
-if bulan_Sekarang == 2:
+if bulan_Sekarang == 1:
     jumlah_hari =31
-elif bulan_Sekarang == 1:
+elif bulan_Sekarang == 2:
     if tahun_kabisat == 505:
         jumlah_hari = 29
     elif tahun_kabisat == 506:
