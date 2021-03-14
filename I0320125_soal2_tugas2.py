@@ -44,8 +44,8 @@ else:
     bulan_Sekarang = int(bulan_Sekarang)-1
     if bulan_Sekarang == 0:
         bulan_Sekarang = 12
-    else:
-        bulan_sekarang = bulan_Sekarang
+
+#jumlah hari dalam 1 bulan
 if bulan_Sekarang == 1:
     jumlah_hari =31
 elif bulan_Sekarang == 2:
